@@ -383,7 +383,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-white mb-2">AI HEALTH ANALYSIS</h1>
-        <p className="text-slate-300 text-lg">Neural Network Health Assessment & Predictive Analytics Engine</p>
+        <p className="text-slate-300 text-lg">Health Assessment & Predictive Analytics Engine</p>
         <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mt-4"></div>
       </div>
 
@@ -392,7 +392,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
         <CardHeader>
           <CardTitle className="text-white text-xl flex items-center gap-3 font-semibold">
             <Brain className="w-6 h-6 text-blue-400" />
-            NEURAL HEALTH MATRIX
+            HEALTH MATRIX
           </CardTitle>
           <p className="text-white font-medium">
             AI-powered comprehensive analysis of biometric patterns and health indicators
@@ -439,7 +439,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
                 </div>
               ) : (
                 <div className="text-center mb-4">
-                  <div className="text-white text-sm font-medium">Run neural scan to view your health score</div>
+                  <div className="text-white text-sm font-medium">Run Health Score to view your health score</div>
                 </div>
               )}
             </div>
@@ -450,7 +450,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Cpu className="w-6 h-6 text-cyan-400 animate-pulse" />
-                    <span className="text-white font-semibold">Neural Network Processing...</span>
+                    <span className="text-white font-semibold">Processing...</span>
                   </div>
                   <Progress value={scanProgress} className="h-3" />
                   <div className="text-center text-white text-sm font-medium">
@@ -464,10 +464,10 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
                     className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold shadow-lg"
                   >
                     <Brain className="w-5 h-5 mr-2" />
-                    Run Neural Scan
+                    Run Health Score
                   </Button>
                   <p className="text-white text-sm mt-3 font-medium">
-                    Initiate comprehensive AI health analysis and predictive modeling
+                    Recommended to run scan again in 7 days for optimal health monitoring and trend analysis.
                   </p>
                 </div>
               )}
@@ -529,7 +529,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Brain className="w-6 h-6 text-purple-400 animate-pulse" />
-                    <span className="text-white font-semibold">AI Processing Health Predictions...</span>
+                    <span className="text-white font-semibold">Processing...</span>
                   </div>
                   <Progress value={analysisProgress} className="h-3" />
                   <div className="text-center text-white text-sm font-medium">
@@ -914,7 +914,7 @@ export function AIHealthAnalysisContent({ user }: AIHealthAnalysisContentProps) 
                   <span className="text-purple-400 font-semibold">Next Analysis</span>
                 </div>
                 <p className="text-white text-sm">
-                  Recommended to run neural scan again in 7 days for optimal health monitoring and trend analysis.
+                  Recommended to run scan again in 7 days for optimal health monitoring and trend analysis.
                 </p>
               </div>
             </CardContent>

@@ -235,8 +235,8 @@ export default function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/emergency-alerts" className="hover:text-white transition-colors">
-                    Emergency Alerts
+                  <Link href="/health-metrics" className="hover:text-white transition-colors">
+                    Health Metrics
                   </Link>
                 </li>
               </ul>

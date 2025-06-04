@@ -13,6 +13,9 @@ import {
   AlertTriangle,
   TrendingUp,
   LogOut,
+  LayoutDashboard,
+  Activity,
+  User,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -26,7 +29,7 @@ const navigation = [
   { name: "Health Records", href: "/health-records", icon: FileText },
   { name: "Doctor Consultation", href: "/doctor-consultation", icon: Stethoscope },
   { name: "AI Health Analysis", href: "/ai-health-analysis", icon: Brain },
-  { name: "Emergency Alerts", href: "/emergency-alerts", icon: AlertTriangle },
+  { name: "Profile", href: "/profile", icon: User },
 ]
 
 export function Sidebar() {

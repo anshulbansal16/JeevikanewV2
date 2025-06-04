@@ -7,13 +7,13 @@ export function middleware(request: NextRequest) {
   // Define protected routes
   const protectedRoutes = [
     "/dashboard",
-    "/bmi-analysis",
-    "/health-assistant",
-    "/health-records",
-    "/doctor-consultation",
-    "/ai-health-analysis",
     "/health-metrics",
-    "/emergency-alerts",
+    "/health-records",
+    "/bmi-analysis",
+    "/ai-health-analysis",
+    "/doctor-consultation",
+    "/health-assistant",
+    "/profile",
   ]
 
   // Check if the path is a protected route
@@ -30,13 +30,13 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/dashboard/:path*",
-    "/bmi-analysis/:path*",
-    "/health-assistant/:path*",
-    "/health-records/:path*",
-    "/doctor-consultation/:path*",
-    "/ai-health-analysis/:path*",
     "/health-metrics/:path*",
-    "/emergency-alerts/:path*",
+    "/health-records/:path*",
+    "/bmi-analysis/:path*",
+    "/ai-health-analysis/:path*",
+    "/doctor-consultation/:path*",
+    "/health-assistant/:path*",
+    "/profile/:path*",
     "/signin",
     "/register",
   ],
