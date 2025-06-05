@@ -30,6 +30,7 @@ const navigation = [
   { name: "Doctor Consultation", href: "/doctor-consultation", icon: Stethoscope },
   { name: "AI Health Analysis", href: "/ai-health-analysis", icon: Brain },
   { name: "Profile", href: "/profile", icon: User },
+  { name: "Join the waitlist", href: "/waitlist", icon: AlertTriangle },
 ]
 
 export function Sidebar() {
